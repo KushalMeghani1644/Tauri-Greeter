@@ -13,7 +13,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "vibes-tauri",
+        "title": "tauri-greeter",
         "width": 800,
         "height": 600
       }
