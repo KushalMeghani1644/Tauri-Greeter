@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                background: linear-gradient(
+                    to right,
+                    #0f2027,
+                    #203a43,
+                    #2c5364
+                );
+                color: white;
+                font-family: "Segoe UI", sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            input,
+            button {
+                margin: 8px;
+                padding: 10px;
+                font-size: 1em;
+                border-radius: 5px;
+                border: none;
+            }
+
+            button {
+                background-color: #61dafb;
+                cursor: pointer;
+            }
+
+            #response {
+                margin-top: 20px;
+                font-weight: bold;
+            }
+        </style>
+
+        <meta charset="UTF-8" />
+        <title>VIBES App</title>
+    </head>
+    <body>
+        <h1>⚡ Welcome to Greeter!</h1>
+        <div class="centered">
+        <input type="text" id="name" placeholder="Enter your name" />
+        <button id="greet">Greet</button>
+        </iv>
+        <p id="response"></p>
+
+        <script type="module" src="/src/main.ts" defer></script>
+    </body>
+</html>
+
+<!-- <!doctype html>
+#<html lang="en">
+#  <head>
+#    <meta charset="UTF-8" />
+#    <link rel="stylesheet" href="/src/styles.css" />
+#    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+#    <title>Tauri App</title>
+#    <script type="module" src="/src/main.ts" defer></script>
+#  </head>
+#
+#  <body>
+#    <main class="container">
+#      <h1>Welcome to Tauri</h1>
+#
+#      <div class="row">
+#        <a href="https://vite.dev" target="_blank">
+#          <img src="/src/assets/vite.svg" class="logo vite" alt="Vite logo" />
+#        </a>
+#        <a href="https://tauri.app" target="_blank">
+#          <img
+#            src="/src/assets/tauri.svg"
+#            class="logo tauri"
+#            alt="Tauri logo"
+#          />
+#        </a>
+#        <a href="https://www.typescriptlang.org/docs" target="_blank">
+#          <img
+#            src="/src/assets/typescript.svg"
+#            class="logo typescript"
+#            alt="typescript logo"
+#          />
+#        </a>
+#      </div>
+#      <p>Click on the Tauri logo to learn more about the framework</p>
+#
+#      <form class="row" id="greet-form">
+#        <input id="greet-input" placeholder="Enter a name..." />
+#        <button type="submit">Greet</button>
+#      </form>
+#      <p id="greet-msg"></p>
+#    </main>
+#  </body>
+#</html> -->
