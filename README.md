@@ -1,7 +1,20 @@
-# Tauri + Vanilla TS
+# Tauri-Greeter
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+A simple Tauri desktop app that greets the user based on their name input. Built using **Rust** for the backend and **TypeScript + HTML** for the frontend.
 
-## Recommended IDE Setup
+## ✨ Features
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Enter your name and get a custom greeting
+- Written in Rust using Tauri 2
+- Lightweight, fast, and cross-platform
+- Simple HTML & TypeScript-based UI
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Rust](https://www.rust-lang.org/tools/install)
+- [Node.js](https://nodejs.org/)
+- Tauri CLI:
+  ```bash
+  cargo install tauri-cli
